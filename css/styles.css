@@ -638,8 +638,9 @@ margin-bottom: 16px;
 .checkbox {
      margin-bottom: 24px;
 }
-.checkbox-input .visually-hidde {
-
+.checkbox-input:checked .checkbox-label-span {
+    background-color: #404bbf;
+    border: none;
 }
 .checkbox-label{
 font-size: 12px;
@@ -660,7 +661,11 @@ line-height: 1.17;
        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .checkbox-link{
-
+line-height: 16px; 
+line-height: 1.33333;
+text-decoration: underline;
+text-decoration-skip-ink: none;
+color: #4d5ae5;
 }
 
 .button-send{
