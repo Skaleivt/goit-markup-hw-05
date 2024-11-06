@@ -638,14 +638,10 @@ margin-bottom: 16px;
 .checkbox {
      margin-bottom: 24px;
 }
-:root {
-    --main-bg-color: #404bbf; 
-    --icon-fill-color: #F4F4FD;
-}
-.checkbox-input:checked + .checkbox-label-span {
-    background-color: var(--main-bg-color);
+.checkbox-input:checked + .checkbox-label > .checkbox-label-span {
+    background-color: #404bbf; 
     border: none;
-    fill: var(--icon-fill-color);
+    fill: #F4F4FD;
 }
 .checkbox-label{
 font-size: 12px;
