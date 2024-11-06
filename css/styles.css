@@ -638,9 +638,10 @@ margin-bottom: 16px;
 .checkbox {
      margin-bottom: 24px;
 }
-.checkbox-input:checked .checkbox-label-span {
+.checkbox-input:checked + .checkbox-label-span {
     background-color: #404bbf;
     border: none;
+    fill: #F4F4FD; 
 }
 .checkbox-label{
 font-size: 12px;
